@@ -46,7 +46,8 @@ table {
 body {
     font-size: 20px;
     background-color: rgb(49, 49, 49);
-    color: rgb(247, 229, 229)
+    color: rgb(247, 229, 229);
+    line-height: 1.5;
 }
 .section {
     margin: 5% 12%;
