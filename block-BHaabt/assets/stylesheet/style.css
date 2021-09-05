@@ -1,0 +1,274 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* customs */
+.container {
+    margin: 0 auto;
+    padding: 0 10%;
+}
+body {
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Karla', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: -1.5px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.heading h2 {
+    color: rgb(45,38,64);
+    font-size: 50px;
+    font-family: 'DM Serif Display', serif;
+}
+.nav-link {
+    text-transform: uppercase;
+    width: 40%;
+}
+.nav-link a {
+    font-size: 25px;
+    color: rgb(140, 135, 150);
+}
+.view-btn-home {
+   background-color: white;
+   text-transform: uppercase;
+   font-size: 25px;
+   height: 7vh;
+   width: 10vw;
+   border-radius: 5px;
+   color: rgb(140, 135, 150);
+   border: 1px solid rgb(140, 135, 150);
+   font-family: 'Karla', sans-serif;
+   letter-spacing: -2px;
+}
+.intro {
+    background-color: rgb(45,38,64);
+}
+.intro-heading {
+    width: 35%;
+    height: 55vh;
+    color: white;
+     flex-direction: column;
+     align-items: flex-start;
+     padding-bottom: 50px;
+}
+.about-line {
+   width: 40%;
+   padding: 50px 0 0 0;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'DM Serif Display', serif;
+    text-transform: capitalize;
+}
+.view-btn {
+    background-color: rgb(45,38,64);
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 7vh;
+    width: 10vw;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Karla', sans-serif;
+    letter-spacing: -2px;
+    border-radius: 5px;
+}
+.middle-line {
+    width: 80%;
+    margin-top: 50px;
+}
+.image-1 {
+    height: 65vh;
+    position: absolute;
+    right: 160px;
+    margin-top: 180px;
+}
+.image-1 img {
+    height: 100%;
+}
+.about-intro {
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+.image-2 {
+    height: 65vh;
+}
+.image-2 img {
+    height: 100%;
+}
+.about-heading {
+    width: 36%;
+    font-family: 'DM Serif Display', serif;
+}
+.about-heading h2 {
+    font-size: 50px;
+    padding-top: 10px;
+    color: rgb(45,38,64);
+}
+p {
+    font-size: 17px;
+    padding: 20px 0;
+    color:rgb(140, 135, 150);
+    font-weight: 100;
+}
+.different h2 {
+    font-size: 50px;
+    color: rgb(45,38,64);
+    font-family: 'DM Serif Display', serif;
+}
+h3 {
+    font-size: 30px;
+    color: rgb(45,38,64);
+    padding: 3% 0;
+    font-family: 'DM Serif Display', serif;
+}
+.know-btn {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    height: 7vh;
+    width: 10vw;
+    border-radius: 5px;
+    color: rgb(140, 135, 150);
+    border: 1px solid rgb(140, 135, 150);
+    font-family: 'Karla', sans-serif;
+    letter-spacing: -2px;
+}
+.setting {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(138,180,240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setting i {
+    font-size: 30px;
+    color: white;
+}
+.setting-article {
+    padding: 4% 0;
+}
+.diff-article {
+    width: 30%;
+}
+.diff-heading {
+    letter-spacing: -2px;
+}
+.work-section {
+   
+   
+}
+.work-box {
+    background-color: rgb(45,38,64);
+    width: 60%;
+    height: 40vh;
+}
+.work-heading h3 {
+    font-size: 50px;
+    color: white;
+    padding-top: 90px;
+    letter-spacing: -2px;
+    font-family: 'DM Serif Display', serif;
+}
+.work-btn {
+    font-size: 23px;
+    height: 8vh;
+    margin-top: 50px;
+    background-color:  rgb(45,38,64);
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border-radius: 5px;
+    
+}
+.work-head-box {
+    width: 43%;
+}
+.footer-head h3 {
+    font-size: 45px;
+}
+.footer-nav {
+    width: 10%;
+}
+.footer-nav i {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-line {
+    width: 100%;
+}
+.footer-home {
+    text-align: center;
+    padding: 20px 20px;
+}
+.footer-home a {
+   padding: 20px;
+    font-size: 25px;
+    color: grey;
+}
+.copyright {
+    font-size: 30px;
+    padding: 20px 0;
+    background-color: rgb(45,38,64);
+    text-align: center;
+    color: rgb(142,145,165);
+}
