@@ -120,6 +120,7 @@ h1 {
     border: 1px solid white;
     font-family: 'Karla', sans-serif;
     letter-spacing: -2px;
+    border-radius: 5px;
 }
 .middle-line {
     width: 80%;
@@ -229,6 +230,7 @@ h3 {
     color: white;
     text-transform: uppercase;
     letter-spacing: -1px;
+    border-radius: 5px;
     
 }
 .work-head-box {
